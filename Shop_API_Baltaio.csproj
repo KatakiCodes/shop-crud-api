@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" version="3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" version="3.0" />
+    <PackageReference Include="swashbuckle.aspnetcore" Version="5.0.0-rc4" />
+  </ItemGroup>
+
+</Project>
